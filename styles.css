@@ -61,7 +61,9 @@
 .text-lg {
     font-size: 1.125rem;
 }
-
+.farma {
+    height:60px;
+}
 .text-xl {
     font-size: 1.25rem;
 }
