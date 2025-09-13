@@ -29,7 +29,7 @@ const WeatherDisplay = {
                     </div>
                     <div class="flex justify-between">
                         <span class="text-gray-600">Wind Speed:</span>
-                        <span class="font-bold">${windSpeed} m/s</span>
+                        <span class="font-bold">${windSpeed} Kmph</span>
                     </div>
                 </div>
                 <div class="space-y-4">
