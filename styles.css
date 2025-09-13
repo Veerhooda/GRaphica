@@ -31,21 +31,11 @@
     border: 1px solid #f59e0b;
 }
 
-/* Remove hover effects and transitions */
-.weather-card:hover {
-    transform: none;
-}
-
 .crop-advice-card {
     background-color: #f9fafb;
     border: 1px solid #e5e7eb;
 }
 
-.crop-advice-card:hover {
-    transform: none;
-}
-
-/* Simple responsive design */
 @media (max-width: 768px) {
     .weather-card {
         margin: 0.5rem;
@@ -56,7 +46,6 @@
     }
 }
 
-/* Basic utility classes */
 .hidden {
     display: none;
 }
