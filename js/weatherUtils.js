@@ -1,14 +1,14 @@
-// weatherUtils.js - Weather-related utility functions
+
 const WeatherUtils = {
     getWeatherIcon(weatherId) {
-        if (weatherId >= 200 && weatherId < 300) return "⛈️"; // thunderstorm
-        if (weatherId >= 300 && weatherId < 400) return "🌦️"; // drizzle
-        if (weatherId >= 500 && weatherId < 600) return "🌧️"; // rain
-        if (weatherId >= 600 && weatherId < 700) return "🌨️"; // snow
-        if (weatherId >= 700 && weatherId < 800) return "🌫️"; // atmosphere
-        if (weatherId === 800) return "☀️"; // clear
-        if (weatherId > 800) return "☁️"; // clouds
-        return "🌤️"; // default
+        if (weatherId >= 200 && weatherId < 300) return "⛈️"; 
+        if (weatherId >= 300 && weatherId < 400) return "🌦️";
+        if (weatherId >= 500 && weatherId < 600) return "🌧️"; 
+        if (weatherId >= 600 && weatherId < 700) return "🌨️";
+        if (weatherId >= 700 && weatherId < 800) return "🌫️"; 
+        if (weatherId === 800) return "☀️";
+        if (weatherId > 800) return "☁️"; 
+        return "🌤️"; 
     },
 
     groupForecastByDay(forecastList) {
@@ -82,7 +82,7 @@ const WeatherUtils = {
     }
 };
 
-// Export for use in other modules
+
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = WeatherUtils;
 } else {

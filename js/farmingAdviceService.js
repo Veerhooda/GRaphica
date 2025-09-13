@@ -1,4 +1,4 @@
-// farmingAdviceService.js - AI farming advice functionality
+
 const FarmingAdviceService = {
     getFarmingAdvice() {
         const weatherData = AppState.getWeatherData();
@@ -124,7 +124,7 @@ Based on this data, provide practical advice for these categories. Each category
             }
         });
 
-        // Ensure all sections have at least one item
+       
         Object.keys(sections).forEach((key) => {
             if (sections[key].length === 0) {
                 sections[key].push("Consult local agricultural experts for detailed advice.");
@@ -174,7 +174,7 @@ Based on this data, provide practical advice for these categories. Each category
     }
 };
 
-// Export for use in other modules
+
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = FarmingAdviceService;
 } else {

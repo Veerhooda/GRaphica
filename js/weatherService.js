@@ -1,4 +1,4 @@
-// weatherService.js - Weather API calls and data processing
+
 const WeatherService = {
     getWeatherData() {
         const currentLocation = AppState.getCurrentLocation();
@@ -39,7 +39,7 @@ const WeatherService = {
     }
 };
 
-// Export for use in other modules
+
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = WeatherService;
 } else {

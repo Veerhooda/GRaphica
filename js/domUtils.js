@@ -1,4 +1,4 @@
-// domUtils.js - DOM manipulation utilities
+
 const DOMUtils = {
     showLocationInfo(locationName, lat, lon) {
         const content = `
@@ -61,7 +61,7 @@ const DOMUtils = {
     }
 };
 
-// Export for use in other modules
+
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = DOMUtils;
 } else {

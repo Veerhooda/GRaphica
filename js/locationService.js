@@ -1,4 +1,4 @@
-// locationService.js - Location-related functionality
+
 const LocationService = {
     getCurrentLocation() {
         DOMUtils.showLocationStatus("Getting your location...");
@@ -93,7 +93,7 @@ const LocationService = {
     }
 };
 
-// Export for use in other modules
+
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = LocationService;
 } else {

@@ -1,4 +1,4 @@
-// eventHandlers.js - Event handling and UI interactions
+
 const EventHandlers = {
     setupButtons() {
         const locationBtn = document.getElementById("locationBtn");
@@ -32,7 +32,7 @@ const EventHandlers = {
     }
 };
 
-// Export for use in other modules
+
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = EventHandlers;
 } else {

@@ -1,4 +1,4 @@
-// state.js - Application state management
+
 const AppState = {
     map: null,
     currentLocation: null,
@@ -29,7 +29,7 @@ const AppState = {
     }
 };
 
-// Export for use in other modules
+
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = AppState;
 } else {

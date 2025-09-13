@@ -1,4 +1,4 @@
-// config.js - Configuration constants
+
 const CONFIG = {
     OPENWEATHER_API_KEY: "f933eae88b81a12566359df43b926363",
     GEMINI_API_KEY: "AIzaSyCYxkosc3Ph6lnBTywdjS4gsv-peWNL8u0",
@@ -8,7 +8,7 @@ const CONFIG = {
     MAP_LOCATION_ZOOM: 12
 };
 
-// Export for use in other modules
+
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = CONFIG;
 } else {
